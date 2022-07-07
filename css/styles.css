@@ -57,9 +57,37 @@ html{
     font-size: 15px;
     box-sizing: border-box;
 }
+li a,
+li a:link,
+li a:visited{
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: transform .5s;
+}
+li a:hover,
+li a:focus{
+    text-decoration: none;
+    transform: scale(1.3);
+}
 
+li a:active{
+    transform: scale(1.3) translate(0px);
+}
+li a:active{
+    transform: scale(1.3) translate(0px);
+}
 body {
     background-color: rgb(255, 255, 255);
+}
+.button1,
+.button1:hover{
+  transform: scale(1.0);
+}
+
+.button1:active {
+  font-size: 1rem;
+  transform: scale(1.5);
+  box-shadow: 0 3px 15px -2px;
 }
 *,
 *:after,
@@ -105,7 +133,7 @@ h3 {
 }
 .wrapper {
     background-color: white;
-    width: 1200px;
+    width: 900px;
     margin: 0px auto;
 }
 ul {
@@ -116,15 +144,22 @@ ul {
     justify-content: space-around;
 }
 ul li {
-    font-size: 30px;
+    font-size: 20px;
     height: 100px;
     line-height: 100px;
     list-style: none;    
 }
-a :hover {
+a :hover,
+a :focus {
+    text-decoration: underline;
+    transform: scale(1.5);
     color: white;
 }
 a:link,a:visited{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: transform .5s;
     color: rgb(16, 16, 134);
     text-decoration: none;
 }
@@ -198,7 +233,7 @@ footer {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;
+    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
   }
@@ -235,5 +270,17 @@ footer {
     grid-column: 1/2;
     grid-row: 2/3;
 }
-
+@keyframes change {
+0%{
+    transform: translate(0,0);
+}
+100%{
+    transform: scale(1.2);
+}
+}
+.button1{
+animation: change 0.2s infinite;
+}
+.send{
+}
 }
