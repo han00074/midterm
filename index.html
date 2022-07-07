@@ -14,7 +14,15 @@
 <body>
     <div class="wrapper">
         <div class="logo">
+            <picture>
+                <source srcset="
+                images/tidd_logo-320_x_179.png,
+                images/tidd_logo-640_x_360.png 2x,
+                images/tidd_logo-960_x_540.png 3x"
+                media="(min-width: 320px)"/>
+           
             <img id="logo" src="images/tidd_logo.png" alt="logo">
+            </picture>
         </div>
             <ul>
                 <li class="order"><a href="index.html">Order Online</a></li> 
@@ -24,8 +32,17 @@
                 <li class="deals"><a href="#">Deals</a></li>
                 <li class="shop"><a href="contact.html">Find a Shop</a></li> 
             </ul>
+        
         <div class="banner">
+            <picture>
+                <source srcset="
+                images/banner-320_x_179.png,
+                images/banner-640_x_360.png 2x,
+                images/banner-960_x_540.png 3x,
+                images/banner-1440_x_810.png 4x"
+                media="(min-width: 320px)"/>
             <img id="banner" src="images/banner.png" alt="banner">
+            </picture>
         </div>
     <div class="online">
         <form action="menu.html"><button class="button1">New Flavor</button></form>
