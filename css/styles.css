@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@media screen and (min-width: 760px){
+* {
+    margin: 0;
+    padding: 0;
+    }
+html{
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+  line-height: inherit;
+}
+a,
+a:link,
+a:visited {
+  color: inherit;
+}
+
+a:hover,
+a:focus {
+  color: inherit;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1 {
+    font-size: 3rem;
+    margin: 15px;
+    color: rgba(141, 139, 139, 0.599);
+}
+h2 {
+    font-size: 2rem;
+    margin: 15px;
+    color: rgba(242, 37, 37, 0.599);
+}
+h3 {
+    font-size: 1.5rem;
+    margin: 10px;
+    color: rgba(253, 135, 135, 0.599);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    background-color: white;
+    width: 1200px;
+    margin: 0px auto;
+}
+ul {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+ul li {
+    font-size: 30px;
+    height: 100px;
+    line-height: 100px;
+    list-style: none;    
+}
+a :hover {
+    color: white;
+}
+a:link,a:visited{
+    color: rgb(16, 16, 134);
+    text-decoration: none;
+}
+#logo{
+    border: 2px solid rgba(0, 0, 0, 0.399);
+}
+#logo{
+    width: 15%;
+}
+#banner{
+    width: 100%;
+}
+#fullname,
+#email {
+    width: 95%;
+    height: 28px;
+    margin-bottom: 6px;
+    margin: 20px;
+}
+#message {
+    height: 150px;
+    width: 95%;
+    margin-bottom: 10px;
+    margin: 20px;
+}
+p{
+    font-size: 15px;
+    color: rgba(95, 87, 87, 0.429);
+}
+
+.send {
+    background-color: #222;
+    color: #c78c06;
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1em;
+    margin: 10px;
+    }
+.map{
+    grid-column: 1/2;
+    grid-row: 1/2; 
+    margin: 20px;
+}
+footer {
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    color: rgb(17, 32, 128);
+    padding-top: 30px;
+    padding-bottom: 1rem;
+    border: 2px solid rgba(142, 139, 139, 0.422);
+    text-align: center;
+}
+.fa {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.menu{
+    text-align: center;
+}
+.online{
+    text-align: center;
+}
+.button1 {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: pink;
+    box-shadow: 5px 10px rgb(231, 148, 162);
+    margin: 20px;
+}
+.icecream {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 10px;
+    }
+.chocolate {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.chocolate-text {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.icecream2 {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 10px;
+    }
+.chocolate2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.chocolate-text2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+}
