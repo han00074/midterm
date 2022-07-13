@@ -46,6 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* css rest done*/
+/* table size set */
 @media screen and (min-width: 760px){
 * {
     margin: 0;
@@ -79,6 +81,7 @@ li a:active{
 body {
     background-color: rgb(255, 255, 255);
 }
+/*button redesign style*/
 .button1,
 .button1:hover{
   transform: scale(1.0);
@@ -111,6 +114,7 @@ a:focus {
   display: table;
   clear: both;
 }
+/* normal h1 h2 h3 sytle set */
 h1 {
     font-size: 3rem;
     margin: 15px;
@@ -131,11 +135,13 @@ h3 {
     margin: 0;
     padding: 0;
 }
+
 .wrapper {
     background-color: white;
     width: 900px;
     margin: 0px auto;
 }
+/* change the nav style */
 ul {
     background-repeat: no-repeat;
     width: 100%;
@@ -172,6 +178,7 @@ a:link,a:visited{
 #banner{
     width: 100%;
 }
+/* change the form details */
 #fullname,
 #email {
     width: 95%;
@@ -205,6 +212,7 @@ p{
     grid-row: 1/2; 
     margin: 20px;
 }
+/*redesign the footer*/
 footer {
     background-color: rgb(255, 255, 255);
     font-size: 15px;
@@ -226,6 +234,7 @@ footer {
 .online{
     text-align: center;
 }
+/* redesign the button */
 .button1 {
     border: none;
     color: white;
@@ -270,6 +279,7 @@ footer {
     grid-column: 1/2;
     grid-row: 2/3;
 }
+/* add trans to button */
 @keyframes change {
 0%{
     transform: translate(0,0);
